@@ -30,3 +30,31 @@ To get started:
 10. Voila! It _should_ work lol
 
 - LeanKhan
+
+links:
+
+- https://gist.github.com/mpj/a979ded460dd52eb536a => my lucky break lol. I tried other Java socket server implementations but this one just worked and they showed me how to connect the Nodejs client. Awesome. grateful I am
+
+- More about Nodejs NET module https://www.javatpoint.com/nodejs-net
+
+- https://stackoverflow.com/questions/47359632/nodejs-getting-response-from-net-socket-write the comment under the accepted answer was a game changer!
+
+- https://github.com/redhat-developer/vscode-java/wiki/JDK-Requirements#java.configuration.runtimes => about redhat java vscode extension
+
+- about jackson json package => https://blog.codota.com/how-to-convert-a-java-object-into-a-json-string/
+
+- The jackson package homepage => https://github.com/FasterXML/jackson
+
+- about jackson installation NOTE: you don't need to do the maven stuff, just download the .jar files from Maven (link below) and add them to your project from vscode... => http://tutorials.jenkov.com/java-json/jackson-installation.html
+
+- jackson packages on Maven NOTE download all three: annotation, core and databindind => https://search.maven.org/search?q=g:com.fasterxml.jackson.core
+
+- very good guide on using java on vscode RECOMMENDED READING => https://blog.usejournal.com/visual-studio-code-for-java-the-ultimate-guide-2019-8de7d2b59902
+  NOTE=> when you get to the part about adding package, you don't need to make a .classpath file just add the packages form vscode gan.
+
+- some stuff about Java Socket servers for more knowledge and shii => https://www.codejava.net/java-se/networking/java-socket-server-examples-tcp-ip
+
+- the java server might be stuck waiting for the end of the clients request => https://stackoverflow.com/questions/55870574/cant-send-data-from-java-socket-server-to-nodejs-client
+  NOTE: the end of every request from the nodejs server is a new line '\n' because that's how Java will know the line has ended! If there's no new line it will think more data is coming and will hang...
+
+- some oracle java scoket shii (might be useful) => https://docs.oracle.com/javase/tutorial/networking/sockets/clientServer.html
