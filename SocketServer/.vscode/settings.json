@@ -1,0 +1,15 @@
+{
+	  "files.exclude": {
+    "**/.classpath": false,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "*/*.class": true
+  },
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "c:\\dev\\jarDownloads\\jackson-core-2.12.0.jar",
+    "c:\\dev\\jarDownloads\\jackson-databind-2.12.1.jar",
+    "c:\\dev\\jarDownloads\\jackson-annotations-2.12.1.jar"
+  ]
+}

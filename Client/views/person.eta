@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Person</title>
+  </head>
+  <body>
+    <h3>The Person</h3>
+
+    <% if (typeof person != 'undefined' && person != null && person.firstname) { %>
+    <ol>
+      <li> 
+        <div>
+          <ul>
+            <li><b>Firstname:</b> <%= person.firstname %></li>
+            <li><b>Lastname:</b> <%= person.lastname %></li>
+            <li><b>Age:</b> <%= person.age %></li>
+            <li><b>Major:</b> <%= person.major %></li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+    <% } else { %>
+    <p>No person yet! You can make one below:</p>
+    <% } %>
+
+
+    <h4>Create Person Object</h4>
+    <form action="/person" method="POST">
+      <label for="firstname">
+        Firstname
+      </label>
+      <input type="text" name="firstname">
+      <br />
+
+      <label for="lastname">
+        Lastname
+      </label>
+      <input type="text" name="lastname">
+      <br />
+
+      <label for="age">
+        Age
+      </label>
+      <input type="number" name="age">
+      <br />
+
+      <label for="major">
+        Major
+      </label>
+      <input type="text" name="major">
+      <br />
+
+      <input type="submit" value="submit"> 
+    </form>
+  </body>
+</html>

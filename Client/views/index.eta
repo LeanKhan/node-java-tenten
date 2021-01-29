@@ -1,0 +1,15 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Person</title>
+  </head>
+  <body>
+    <h3>Welcome to Nodejs ft. Java</h3>
+
+    <ul>
+      <li><a href="/person">Persons Page</a></li>
+    </ul>
+
+  </body>
+</html>
